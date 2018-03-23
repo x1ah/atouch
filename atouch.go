@@ -49,6 +49,10 @@ func aTouchFile(fileName string) {
 
 func main() {
     files := os.Args[1:]
+    if len(files) == 0 {
+        fmt.Println("whatever you want 🐯")
+    }
+
     for _, fileName := range files {
         r := absPath(fileName)
         if _, err := os.Stat(r); err == nil {
