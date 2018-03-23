@@ -5,8 +5,8 @@
 ## Usage
 
 ```bash
-$ go build
-$ ./atouch test.py
+$ go get github.com/x1ah/atouch
+$ atouch test.py
 $ cat test.py
 # coding: utf-8
 
