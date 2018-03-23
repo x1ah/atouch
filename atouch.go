@@ -10,6 +10,7 @@ import (
 var FileHeadMapping = map[string]string{
     "py": "# coding: utf-8\n\n",
     "c": "# include <stdio.h>\n",
+    "sh": "#!/bin/bash\n",
 }
 
 func checkError(e error) {
